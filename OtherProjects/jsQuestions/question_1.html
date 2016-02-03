@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Question 1</title>
+</head>
+<body>
+
+    <script>
+              var userAge = prompt("Please enter your age");
+
+              // an if statement is meant to have a block of information in it, that's
+              // why the semicolon was changed to a {
+              // the proper boolean comparative tool is == to compare userAge to 0 instead
+              // of stating that is is equal to 0
+
+              if (userAge == 0) {
+
+                  alert("So you're a baby!");
+
+              // Here the proper boolean 'or' is two || instead of just one
+
+              } else if (userAge < 0 || userAge > 200) {
+
+                  alert("I think you may be lying about your age");
+
+              } else {
+
+                  alert("That's a good age");
+
+              }
+    </script>
+
+</body>
+</html>
