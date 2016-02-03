@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html xmlns=”http://www.w3.org/1999/xhtml”>
+
+<body>
+
+<script>
+
+//here we have a function that contains 3 different variables that will be used to
+// calculate times tables
+
+function writeMultiplication(multiple, startingMultiple, endingMultiple){
+
+  //there is no need for a initial starting value because it can be anything except -1 which is
+  //when the loop breaks
+  //like the other exercises the multiplication is written out in document.write
+      for (;startingMultiple <= endingMultiple; startingMultiple++){
+            document.write(multiple + '*' + startingMultiple + '=' + startingMultiple * multiple + '<br>');
+    }
+}
+var multiple;
+
+while ( (multiple = prompt('Enter the times table')) != -1) {
+
+//here isNaN is checking whether the multiple entered is in fact a number! if it is not, the browser
+// will say what ever the user entered followed by 'is not a valid number! Please try again. '
+ while (isNaN(multiple) === true) {
+
+ multiple = prompt(multiple + 'is not a valid number! Please try again.',-1);
+}
+
+//here if the user enters -1 the loop breaks!
+ if (multiple == -1){
+
+ break;
+}
+
+ document.write('<br />The' + multiple + 'times table' + '<br/>');
+ writeMultiplication(multiple,1,12);
+}
+
+</script>
+
+</body>
+
+</html>
