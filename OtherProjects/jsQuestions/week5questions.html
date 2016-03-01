@@ -402,11 +402,12 @@
         var i = 0;
 
         for (i = 0; i < size / 2; i++) {
+          // this determines that the width of the chessBoard will be half the size of its height
           line = print + line + '# ';
         }
 
         for (i = 0; i < size; i++) {
-          if (i % 2 === 0) {
+          if (i % 2 === 0) { // if i is a multiple of 2 do this code:
             print = print + (' ' + line) + "<br/>";
           } else {
             print = print + (line) + "<br/>";
@@ -422,9 +423,9 @@
       });
 
       function countBs(bString) {
-        var count = 0;
-        for (var i = 0; i < bString.length; i++) {
-          if (bString.charAt(i) == 'a') {
+        var count = 0; //start counting at 0
+        for (var i = 0; i < bString.length; i++) { // here it is going through the string one character at a time
+          if (bString.charAt(i) == 'a') { // here it is looking for the letter 'a' within the string
             count = (count + 1);
           }
         }
@@ -449,10 +450,10 @@
         }
         return count;
       }
-      $("#q5button").on("click", function() {
+      $("#q5button").on("click", function() { // when you click the button do this code:
 
-        var inputOne = prompt("Type out a sentance!");
-        var inputTwo = prompt("What letter would you like to count?")
+        var inputOne = prompt("Type out a sentance!"); // a prompt asks you to type a sentence
+        var inputTwo = prompt("What letter would you like to count?")// the prompt asks you which letter you would like to count
 
         var t = countChar(inputOne, inputTwo)
         $("#q5result").html(t);
