@@ -37,14 +37,13 @@ $("#myButton").on("mouseenter", function(){
     var myRadio = $("[name='size']:checked").val();
     var quantity = $("#quantity").val();
     var myCheckValues = $("[name='payment']:checked").val();
-
     var myCheckValues = [];
     //each is a jquery loop for objects/arrays
     $("[name='payment']:checked").each(function() {
-
       myCheckValues.push($(this).val());
     });
 //this is the exact thing that will print to the screen when you click the button
+    $("#log").append("<br>Your order is being processed!");
     $("#log").append("<br>User clicked the button!");
     $("#log").append("<br>User clicked the button: " + myInput);
     $("#log").append("<br>Value of textarea is: " + myTextarea);
