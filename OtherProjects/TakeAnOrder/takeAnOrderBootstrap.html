@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF­8">
+
+  <title>Take An Order Regular HTML</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body background="images/backgroundpattern.png">
+  <div class="container" style="padding: 40px;">
+
+    <h1 id="sweater">Retro Sweater Swag</h1>
+    <br>
+
+    <p>Ever see a picture of yourself as a kid and think 'Damn, I was a well dressed kid! Thanks mom'. I know I have! Now you can have your childhood swag made to fit the adult you! Just send a picture of your favourite shirt or sweater as a kid and shabam!
+      you have some sweet retro clothing that your mom is sure to love!
+      <br>To order, fill out the form below!</p>
+
+    <div class="row">
+      <h3>Personal Information</h3>
+      <br>
+      <div class="col-md-6"> <!--I divided the page into 2 columns with bootstrap -->
+        <form><!--Here I included multiple inputs as well as the select item in this div-->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="mySingleLineText" placeholder="Name...">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="address" class="form-control" id="address" placeholder="Address...">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="JohnSmith@example.ca...">
+          </div>
+
+          <div>
+            <label for="province">Province</lable>
+              <select class="form-control" id="province">
+                <option value="select">Select...</option>
+                <option value="Alberta">AB</option>
+                <option value="British Columbia">BC</option>
+                <option value="Manitoba">MB</option>
+                <option value="New Brunswick">NB</option>
+                <option value="Newfoundland and Labrador">NL</option>
+                <option value="Nova Scotia">NS</option>
+                <option value="Northwest Territories">NT</option>
+                <option value="Nunuvut">NU</option>
+                <option value="Ontario">ON</option>
+                <option value="P.E.I">PE</option>
+                <option value="Quebec">QC</option>
+                <option value="Saskatchewan">SK</option>
+                <option value="Yukon">YT</option>
+              </select>
+          </div>
+          </form>
+      </div>
+
+      <div class="col-md-6"><!--I included a picutre of myself as a kid to show an example of a sweater-->
+        <br>
+        <img src="images/sweater.png" alt="sweater kid" style=" display: block; margin-right: auto; margin-left: auto; padding:3px;
+   border:2px solid #000000;;"></img>
+      </div>
+    </div>
+
+    <div class="row">
+      <br>
+      <br>
+      <h3>Order Details</h3> <!--I separated the page into personal information and order details-->
+      <br>
+
+      <div class="col-md-6">
+        <br>
+        <div class="form-group">
+          <label for="File">Upload your best #tbt!</label><!--I decided to include a fil upload spot so that people could
+          upload their picture as a reference-->
+          <input type="file" id="File">
+          <p class="help-block" style="font-size: 10px;">We will work real hard on
+            replicating this slice of awesomeness but if there are any issues with
+            the product upon arrival, please feel free to contact our team!</p>
+        </div>
+        <br>
+        <p style="font-weight: bold;">Choose your style:</p>
+        <select class="form-control" id="mySelect">
+          <option value="value 1">Select...</option>
+          <option value="T-shirt">T-shirt $15.99</option>
+          <option value="Tank Top">Tank Top $9.99</option>
+          <option value="Crewneck">Crewneck $19.99</option>
+          <option value="Hoodie">Hoodie $24.99</option>
+          <option value="Quarter Zip">Quarter Zip $24.99</option>
+        </select>
+        <br>
+        <div id="mySelectMessage">&nbsp;</div><!--this is what makes the value
+          of the selection (for example, "T-shirt! comin right up") print to the screen-->
+        <br>
+
+        <p style="font-weight: bold;">Quantity:</p>
+        <select class="form-control" id="quantity">
+          <option value="0">Select...</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <br>
+
+        <div>
+          <p style="font-weight: bold;">Size:</p>
+          <label class="radio-inline" id="myRadio">
+            <input type="radio" name="size" value="Small"> Small
+          </label>
+          <label class="radio-inline">
+
+            <input type="radio" name="size" value="Medium"> Medium
+          </label>
+          <label class="radio-inline">
+
+            <input type="radio" name="size" value="Large"> Large
+          </label>
+
+        </div>
+        <br>
+        <div>
+          <label class="checkbox-inline" id="myCheckValues">
+            <input type="checkbox" name="payment" value="Visa"> Visa
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="payment" value="MasterCard"> MasterCard
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="payment" value="American Express"> American Express
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" name="payment" value="PayPal"> PayPal
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-6">
+        <!-- textarea -->
+        <br>
+        <p style="font-weight: bold;">Please enter any specifications below:</p>
+        <textarea class="form-control" id="myTextArea" rows="10" cols="50" placeholder="Write something here"></textarea>
+        <br>
+      </div>
+
+
+      <div class="col-md-6">
+        <!-- radio -->
+      </div>
+
+      <div class="col-md-6">
+        <!-- checkbox -->
+      </div>
+
+      <div class="col-md-6">
+        <div class="clearfix">
+          <!-- button -->
+          <button class="btn btn-default" id="myButton" type="button">Click Me!</button>
+        </div>
+        <div class="col-md-6">
+          <div id="log"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!--this is how the page links to the takeAnOrder.js page-->
+  <script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>
