@@ -58,6 +58,13 @@
   #########<br>
   ##########<br>
 </div>
+<footer class="row footer">
+
+<p class="text­muted rowMargins">Place sticky footer content
+
+here.</p>
+
+</footer>
   <script>
     $(document).ready(function() {
       $("#Question1Button").on("click", function() {
