@@ -16,8 +16,6 @@ $("#getClients").on("click", function(){
 
     html += "</table>";
     $("#results").append(html);
-    //alert(data);
-    //console.dir(data);
   })
 })
 });
