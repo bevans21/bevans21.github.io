@@ -8,9 +8,9 @@ $("#getClients").on("click", function(){
 
     $.each(data, function(index, item){
       html += "<tr>" +
-      "<td>"+item.name"</td>" + "
-      <td>"+item.email"</td>" +
-      "<td>"+item.company"</td>" +
+      "<td>" + item.name "</td>" +
+      "<td>" + item.email "</td>" +
+      "<td>" + item.company "</td>" +
       "</tr>";
     })
 
