@@ -1,5 +1,5 @@
 $(document).ready(function(){
 $("#getClients").on("click", function(){
-  alert("working");
+  $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/clients.json")
 })
 })
