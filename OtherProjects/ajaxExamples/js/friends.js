@@ -10,7 +10,7 @@ $("#getFriends").on("click", function(){
       "<li>" + item.name + "</li>" +
       "<li>" + item.gender + "</li>" +
       "<li>" + item.phone + "</li>" +
-      "</li>" + "</ul>";
+       + "</ul>";
     })
 
     html += "</ul>";
