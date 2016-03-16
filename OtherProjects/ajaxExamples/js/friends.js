@@ -6,11 +6,11 @@ $("#getFriends").on("click", function(){
   $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/friends.json",function(data) {
     var html = "<ull>Friends<li><ul><li></li><li></li>/ul></li></ul>"
     $.each(data, function(index, item){
-      html += "<ul>" + "<li>"
-      "<ul>" + item.name + "</ul>" +
+      html += "<ul>" +
+      "<li>" + item.name + "</li>" +
       "<li>" + item.gender + "</li>" +
       "<li>" + item.phone + "</li>" +
-      "</li>" + "</ul>";
+       + "</ul>";
     })
 
     html += "</ul>";
