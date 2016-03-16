@@ -7,7 +7,6 @@ $("#getFriends").on("click", function(){
     var html = "<ull>Friends<li><ul><li></li><li></li>/ul></li></ul>"
     $.each(data, function(index, item){
       html += "<ul>" +
-      "<li>" + "Friend" + "</li>"
       "<ul>" + item.name + "</ul>" +
       "<li>" + item.gender + "</li>" +
       "<li>" + item.phone + "</li>" +
