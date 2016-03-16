@@ -4,7 +4,7 @@ $(document).ready(function(){
 $("#getFriends").on("click", function(){
 
   $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/friends.json",function(data) {
-    var html = "<ul>Friends<li><ul><li></li><li></li>/ul></li></ul>"
+    var html = "<ol>Friends<li><ul><li></li><li></li>/ul></li></ol>"
     $.each(data, function(index, item){
       html += "<tr>" +
       "<ul>" + item.name + "</ul>" +
