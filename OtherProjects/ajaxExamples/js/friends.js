@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-$("#getClients").on("click", function(){
+$("#getFriends").on("click", function(){
 
   $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/clients.json",function(data) {
     var html = "<table class='table table-hover table-striped'>" + "<tr><th>Name</th><th>Email</th><th>Company</th></tr>";
