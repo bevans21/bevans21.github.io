@@ -4,13 +4,14 @@ $(document).ready(function(){
 $("#getFriends").on("click", function(){
 
   $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/friends.json",function(data) {
-    var html = "<table class='table table-hover table-striped'>" + "<tr><th>Name</th><th>Email</th><th>Company</th></tr>";
-
+    var html = "<ul>Friends<li></li>li></li>li></li></ul>"
     $.each(data, function(index, item){
       html += "<tr>" +
-      "<td>" + item.name + "</td>" +
-      "<td>" + item.email + "</td>" +
-      "<td>" + item.company + "</td>" +
+      "<li>" + item.name + "</li>" +
+      "<li>" + item.gender + "</li>" +
+      "<li>" + item.phone + "</li>" +
+
+
       "</tr>";
     })
 
