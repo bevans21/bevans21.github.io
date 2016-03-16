@@ -15,7 +15,7 @@ $("#getFriends").on("click", function(){
       "</ul>";
     })
 
-    html += "</table>";
+    html += "</ul>";
     $("#results").append(html);
   })
 })
