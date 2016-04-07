@@ -4,14 +4,14 @@ $(document).ready(function(){
 $("#getFriends").on("click", function(){
 
   $.getJSON("http://bevans21.github.io/OtherProjects/ajaxExamples/jsondatabase/friends.json",function(data) {
-    var html = "<ul>" +
+    var html = 
+
     $.each(data, function(index, item){
       html += "<ul>" +
       "<li>" + item.name + "</li>" +
-      "<li>" + item.gender + "</li>" +
-      "<li>" + item.phone + "</li>" +
-       + "</ul>";
-    })
+      "<li>" + item.email + "</li>" +
+      "<li>" + item.company + "</li>" +
+      "</ul>";
 
     html += "</ul>";
     $("#results").append(html);
