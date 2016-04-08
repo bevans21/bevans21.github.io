@@ -1,0 +1,66 @@
+[{
+  "type": "3 Wick",
+  "name": "Frosted Cupcake",
+  "gender": "$25.99",
+  "image": "images/cupcake.jpg",
+  "comments": [{
+
+    "username": "AboveAlpha",
+    "stars": 5,
+    "comment": "This scent was really nice"
+
+  }, {
+    "username": "BrashTaga",
+    "stars": 3,
+    "comment": "Not as strong of a scent as I had hoped"
+
+  }, {
+    "username": "Dragonakon",
+    "stars": 4,
+    "comment": "Bought this for my mom and she loved it!"
+  }]
+
+}, {
+  "type": "3 Wick",
+  "name": "Cinnamon Sugared Cupacake",
+  "gender": "$25.99",
+  "image": "images/doughnut.jpg",
+  "comments": [{
+
+    "username": "Jubeamese",
+    "stars": 1,
+    "comment": "Smells horrible!"
+
+  }, {
+    "username": "Pearbrai",
+    "stars": 3,
+    "comment": "Was really excited about this scent but it was not what I had hoped"
+
+  }, {
+    "username": "PeachPrincess",
+    "stars": 5,
+    "comment": "Sooooooooo good!"
+  }]
+
+}, {
+  "type": "3 Wick",
+  "name": "Strawberry Sorbet",
+  "gender": "$25.99",
+  "image": "images/sorbet.jpg",
+  "comments": [{
+
+    "username": "WordtotheWord",
+    "stars": 2,
+    "comment": "Smelt terrible!"
+
+  }, {
+    "username": "Roadbed",
+    "stars": 4,
+    "comment": "Went back and bought two more!"
+
+  }, {
+    "username": "Inconaler",
+    "stars": 1,
+    "comment": "Hated it"
+  }]
+}]

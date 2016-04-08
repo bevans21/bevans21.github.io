@@ -43,17 +43,6 @@ $("#myButton").on("mouseenter", function(){
       myCheckValues.push($(this).val());
     });
 //this is the exact thing that will print to the screen when you click the button
-    $("#log").append("<br>Your order is being processed!");
-    $("#log").append("<br>User clicked the button!");
-    $("#log").append("<br>User clicked the button: " + myInput);
-    $("#log").append("<br>Value of textarea is: " + myTextarea);
-    $("#log").append("<br>Value of Address is: " + address);
-    $("#log").append("<br>Value of Email is: " + email);
-    $("#log").append("<br>Value of Province is: " + province);
-    $("#log").append("<br>Value of select is: " + mySelect);
-    $("#log").append("<br>Value of radio button is: " + myRadio);
-    $("#log").append("<br>Value of quantity button is: " + quantity);
-    $("#log").append("<br> Value of check is: " + myCheckValues.join());
   });
 
 

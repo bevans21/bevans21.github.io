@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Amatic+SC|Roboto:400,300);
+
+.catImage {
+  width: 100%;
+}
+
+.catName{
+  text-decoration: underline;
+  background:rgba(0, 86, 255, 0.2);
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: rgba(0, 86, 255, 0.2);;
+}
+
+small{
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "lobster";
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size:20px;
+  text-align: center;
+  font-family: "roboto";
+  margin-bottom: 10px;
+}
+
+body{
+  background-color: #fff4f8;
+}
+
+.text-success {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.carousel{
+    background: rgba(0, 86, 255, 0.2);
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	 margin: 20px;
+}
+Status API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
