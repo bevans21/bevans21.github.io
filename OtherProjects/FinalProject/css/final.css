@@ -13,7 +13,8 @@
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: rgba(0, 86, 255, 0.2);;
+  background-color: #425454;
+  font-colour: white;
 }
 
 small{
@@ -47,7 +48,7 @@ body{
 }
 
 .carousel{
-    margin-top: 30px;
+    margin-top: 20px;
     background: #adc4a0;
 }
 .carousel .item img{
