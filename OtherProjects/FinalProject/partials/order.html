@@ -1,8 +1,118 @@
-<body>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="images/2000.jpg">
-      </div>
+
+
+<body background="images/backgroundpattern.png">
+<!--this page is not divided into columns, it is all one column-->
+  <div class="wrapper" style="padding: 40px;">
+
+    <h3>Personal Information</h3>
+    <div><!--the divs are the different elements that are on the screen-->
+      <p>Name:</p>
+      <input id="mySingleLineText" type="name" placeholder="Name...">
+      <p>Address:</p>
+      <input id="address" type="Address" placeholder="Address...">
+      <p>Email:</p>
+      <input id="email" type="Email" placeholder="Email...">
+    </div>
+    <br>
+    <br>
+    <div>
+      <select id="province">
+        <option value="select">Select...</option>
+        <option value="Alberta">AB</option>
+        <option value="British Columbia">BC</option>
+        <option value="Manitoba">MB</option>
+        <option value="New Brunswick">NB</option>
+        <option value="Newfoundland and Labrador">NL</option>
+        <option value="Nova Scotia">NS</option>
+        <option value="Northwest Territories">NT</option>
+        <option value="Nunuvut">NU</option>
+        <option value="Ontario">ON</option>
+        <option value="P.E.I">PE</option>
+        <option value="Quebec">QC</option>
+        <option value="Saskatchewan">SK</option>
+        <option value="Yukon">YT</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <div><!--this is an image I decided to include for aesthetic purposes-->
+      <img src="images/sweater.png" alt="sweater kid"></img>
+    </div>
+<!--I divided the page into Personal information and Order details for ease of use and clarity-->
+    <h3>Order Details</h3>
+    <div>
+      <div for="File">Upload your best #tbt!</div>
+      <br>
+      <input type="file" id="File">
+    </div>
+    <br>
+    <br>
+    <div>
+      <p>Please enter any specifications below:</p>
+      <textarea id="myTextArea" rows="10" cols="50" placeholder="Write something here"></textarea>
+    </div>
+    <br>
+    <div>
+      <p>Choose your style:</p>
+      <select id="mySelect">
+        <option value="value 1">Select...</option>
+        <option value="T-shirt">T-shirt $15.99</option>
+        <option value="Tank Top">Tank Top $9.99</option>
+        <option value="Crewneck">Crewneck $19.99</option>
+        <option value="Hoodie">Hoodie $24.99</option>
+        <option value="Quarter Zip">Quarter Zip $24.99</option>
+      </select>
+      <br>
+      <br>
+      <!--this is what makes the page print the style selected plus "comin right up"-->
+      <div id="mySelectMessage">&nbsp;</div>
     </div>
 
+    <div>
+      <p>Quantity:</p>
+      <select id="quantity">
+        <option value="0">Select...</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+    <br>
+
+    <div id="myRadio">
+      <p>Size:</p>
+      <input type="radio" name="size" value="Small"> Small
+      <input type="radio" name="size" value="Medium"> Medium
+      <input type="radio" name="size" value="Large"> Large
+    </div>
+    <br>
+    <br>
+    <div id="myCheckValues">
+      <input type="checkbox" name="payment" value="Visa"> Visa
+      <input type="checkbox" name="payment" value="MasterCard"> MasterCard
+      <input type="checkbox" name="payment" value="American Express"> American Express
+      <input type="checkbox" name="payment" value="PayPal"> PayPal
+    </div>
+    <br>
+    <br>
+    <div>
+      <button id="myButton" type="button">Click Me!</button>
+    </div>
+    <br>
+    <br>
+
+    <div id="log"></div>
+
+  </div>
+  <footer class="row footer">
+
+  <p class="text­muted rowMargins">Place sticky footer content
+
+  here.</p>
+
+  </footer>
+<!--this is how the page links to the takeAnOrder.js page-->
+  <script src="js/takeAnOrder.js"></script>
 </body>
