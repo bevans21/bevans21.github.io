@@ -47,7 +47,7 @@ body{
 }
 
 .carousel{
-    background: rgba(0, 86, 255, 0.2);
+    background: #666547;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
