@@ -32,7 +32,6 @@
   "type": "3 Wick",
   "name": "Cinnamon Sugared Cupacake",
   "gender": "$25.99",
-  "image": "images/doughnut.jpg",
   "comments": [{
 
     "username": "Jubeamese",
@@ -54,7 +53,6 @@
   "type": "3 Wick",
   "name": "Strawberry Sorbet",
   "gender": "$25.99",
-  "image": "images/sorbet.jpg",
   "comments": [{
 
     "username": "WordtotheWord",
