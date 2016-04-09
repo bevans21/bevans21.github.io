@@ -37,7 +37,7 @@ h2{
 }
 
 body{
-  background-color: #fffeb3;
+  background-color: #f4eeb4;
 }
 
 .text-success {
@@ -47,7 +47,7 @@ body{
 }
 
 .carousel{
-    background: #6fcb9f;
+    background: #55897d;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
