@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster|Amatic+SC|Roboto:400,300);
 
 .catImage {
   width: 100%;
@@ -22,16 +22,17 @@ small{
 }
 
 h1{
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
-  font-family: "Amatic";
+  text-decoration: underline;
+  font-family: "lobster";
   margin-bottom: 40px;
 }
 
 h2{
   font-size:20px;
   text-align: center;
-  font-family: "Amatic";
+  font-family: "roboto";
   margin-bottom: 10px;
 }
 
