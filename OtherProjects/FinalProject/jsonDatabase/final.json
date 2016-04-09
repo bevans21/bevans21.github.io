@@ -1,8 +1,21 @@
 [{
+  "type": "3 Wick",
+  "name": "Frosted Cupcake",
+  "gender": "$25.99",
+  "image": "images/2000.jpg",
+  "comments": [{
 
-"image": "images/2000.jpg",
-  } , {
+    "username": "AboveAlpha",
+    "stars": 5,
+    "comment": "This scent was really nice"
 
+  }]
+
+} , {
+  "type": "3 Wick",
+  "name": "Frosted Cupcake",
+  "gender": "$25.99",
+  "image": "images/cupcake.jpg",
   "comments": [{
 
     "username": "AboveAlpha",
@@ -21,7 +34,10 @@
   }]
 
 }, {
-
+  "type": "3 Wick",
+  "name": "Cinnamon Sugared Cupacake",
+  "gender": "$25.99",
+  "image": "images/doughnut.jpg",
   "comments": [{
 
     "username": "Jubeamese",
@@ -40,7 +56,10 @@
   }]
 
 }, {
-
+  "type": "3 Wick",
+  "name": "Strawberry Sorbet",
+  "gender": "$25.99",
+  "image": "images/sorbet.jpg",
   "comments": [{
 
     "username": "WordtotheWord",
