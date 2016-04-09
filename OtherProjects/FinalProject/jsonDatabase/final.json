@@ -1,12 +1,8 @@
 [{
-
-    "image": "images/fastbreak.png",
-
-
-    } , {
   "type": "3 Wick",
   "name": "Frosted Cupcake",
   "gender": "$25.99",
+  "image": "images/cupcake.jpg",
   "comments": [{
 
     "username": "AboveAlpha",
