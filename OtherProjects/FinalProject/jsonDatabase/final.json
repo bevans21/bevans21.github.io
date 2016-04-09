@@ -2,19 +2,6 @@
   "type": "3 Wick",
   "name": "Frosted Cupcake",
   "gender": "$25.99",
-  "image": "images/2000.jpg",
-  "comments": [{
-
-    "username": "AboveAlpha",
-    "stars": 5,
-    "comment": "This scent was really nice"
-
-  }]
-
-} , {
-  "type": "3 Wick",
-  "name": "Frosted Cupcake",
-  "gender": "$25.99",
   "image": "images/cupcake.jpg",
   "comments": [{
 
