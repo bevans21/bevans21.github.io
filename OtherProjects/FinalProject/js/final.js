@@ -24,7 +24,7 @@ $(document).ready(function() {
                 })
             } else if (partial == "seeCatsPage") { //ajax models.html
                 //paste the getJSON here; change the append id; change the file name
-                $.getJSON("jsonDatabase/finalCats.json", function(data) {
+                $.getJSON("jsonDatabase/final.json", function(data) {
 
                         var html = "";
 
