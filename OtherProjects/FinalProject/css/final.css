@@ -24,7 +24,7 @@ small{
 h1{
   font-size: 40px;
   text-align: center;
-  text-decoration: underline;
+  font-weight: 400;
   font-family: "amatic";
   margin-bottom: 40px;
 }
