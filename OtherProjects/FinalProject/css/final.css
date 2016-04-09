@@ -26,19 +26,13 @@ h1{
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
-  font-family: 'Shadows Into';
+  font-family: 'Amatic';
   margin-bottom: 40px;
-}
-
-h2{
-  font-size:20px;
-  text-align: center;
-  font-family: "roboto";
-  margin-bottom: 10px;
 }
 
 body{
   background-color: #f4eeb4;
+  font-family: 'raleway';
 }
 
 .text-success {
