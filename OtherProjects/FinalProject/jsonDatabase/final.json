@@ -1,7 +1,7 @@
 [{
   "image": "images/fastbreak.png",
-  "image": "images/2000.png",
-  "image": "images/pacman.png",
+
+
   "image": "images/hockeyhero.png",
   "image": "images/rollerchamp.png",
   "image": "images/sailboat.png",
@@ -11,6 +11,7 @@
   "type": "3 Wick",
   "name": "Frosted Cupcake",
   "gender": "$25.99",
+  "image": "images/fastbreak.png",
   "comments": [{
 
     "username": "AboveAlpha",
@@ -32,6 +33,7 @@
   "type": "3 Wick",
   "name": "Cinnamon Sugared Cupacake",
   "gender": "$25.99",
+  "image": "images/2000.png",
   "comments": [{
 
     "username": "Jubeamese",
@@ -53,6 +55,7 @@
   "type": "3 Wick",
   "name": "Strawberry Sorbet",
   "gender": "$25.99",
+  "image": "images/pacman.png",
   "comments": [{
 
     "username": "WordtotheWord",
