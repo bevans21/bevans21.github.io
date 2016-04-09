@@ -30,6 +30,9 @@ $(document).ready(function() {
 
             $.each(data, function(index, item) {
                 html += '<div class="col-xs-12 col-md-4 jsonCats">' +
+                  '<div class="catName">' + item.name + '</div>' +
+                  '<div class="catType"><small>type </small>' + item.type + '</div>' +
+                  '<div class="catGender"><small>price </small>' + item.gender + '</div>' +
                   '<img class="catImage" src="' + item.image + '"/>' +
                   //deleted commentsContainer
                   '<div class="panel panel-default">' + //added
@@ -43,9 +46,9 @@ $(document).ready(function() {
                     for (var j = 1; j <= 5; j++) {
 
                       if (j <= i.stars) {
-                        html += '<img src="images/fullStar.png"/>';
+                        html += '<img src="images/fullstar.png"/>';
                       } else {
-                        html += '<img src="images/emptyStar.png"/>';
+                        html += '<img src="images/emptystar.png"/>';
                       }
                     }
                     html += '</div>' + //end stars
