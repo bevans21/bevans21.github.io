@@ -91,13 +91,13 @@ $(document).ready(function() {
 
               $("#mySingleLineText").on("focus", function() {
                 $("#log").append("<br>input focus");
-                  $(this).css("background-color", "#CCFFFF")
+                  $(this).css("background-color", "#adc4a0")
                 })
                 .on("blur", function() {
                   $("#log").append("<br>input blur");
                   $(this).css("background-color", "#FFFFFF")
                 });
-                
+
           }) //get
       }
 
