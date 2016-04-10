@@ -88,6 +88,16 @@ $(document).ready(function() {
                 }
 
               }) //click
+
+              $("#mySingleLineText").on("focus", function() {
+                $("#log").append("<br>input focus");
+                  $(this).css("background-color", "#CCFFFF")
+                })
+                .on("blur", function() {
+                  $("#log").append("<br>input blur");
+                  $(this).css("background-color", "#FFFFFF")
+                });
+                
           }) //get
       }
 
