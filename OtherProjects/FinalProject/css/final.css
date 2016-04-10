@@ -2,7 +2,11 @@
 
 .catImage {
   width: 45%;
+}
 
+.catImage2 {
+  width: 45%;
+  float: right;
 }
 
 .catName{
