@@ -62,6 +62,7 @@ body{
 }
 
 .panel > .panel-heading{
+  background-image: none;
   background-color: #425454 !important;
   color: #adc4a0 !important;
 }
