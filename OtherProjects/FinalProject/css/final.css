@@ -3,14 +3,14 @@
 .catImage {
   width: 46.5%;
   margin-bottom: 30px;
-  border-color: #7b564f 2px;
+  border: #7b564f 2px;
 }
 
 .catImage2 {
   width: 46.5%;
   float: right;
   margin-bottom: 30px;
-  border-color: #7b564f 2px;
+  border: #7b564f 2px;
 }
 
 .catName{
