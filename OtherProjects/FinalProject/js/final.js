@@ -30,7 +30,8 @@ $(document).ready(function() {
 
             $.each(data, function(index, item) {
                 html += '<div class="col-xs-12 col-md-1 jsonCats">' +
-                  '<img class="catImage" src="' + item.image + item.image +'"/>' +
+                  '<img class="catImage" src="' + item.image +'"/>' +
+                  '<img class="catImage" src="' + item.image +'"/>' +
                   //deleted commentsContainer
                   '<div class="panel panel-default">' + //added
                   '<div class="panel-heading">Renter Comments</div>'; //added
