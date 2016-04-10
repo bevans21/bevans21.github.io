@@ -29,7 +29,7 @@ $(document).ready(function() {
             var html = "";
 
             $.each(data, function(index, item) {
-                html += '<div class="col-xs-12 col-md-4 jsonCats">' +
+                html += '<div class="col-xs-12 col-md-1 jsonCats">' +
                   '<img class="catImage" src="' + item.image + '"/>' +
                   //deleted commentsContainer
                   '<div class="panel panel-default">' + //added
