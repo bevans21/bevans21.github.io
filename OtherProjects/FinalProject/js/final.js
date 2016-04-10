@@ -33,7 +33,7 @@ $(document).ready(function() {
                   '<img class="catImage" src="' + item.image +'"/>' +
                   '<img class="catImage2" src="' + item.image2 +'"/>' +
                   '<div class="panel panel-default">' + //added
-                  '<div class="panel-heading">Renter Comments</div>'; //added
+                  '<div class="panel-heading">Reviews</div>'; //added
                 $.each(item.comments, function(ind, i) {
                     html += '<div class="panel-body">' + //added
                       '<div class="renterName"><small>' + i.username + '</small></div>' +
