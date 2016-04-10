@@ -2,7 +2,7 @@
   "type": "3 Wick",
   "name": "Frosted Cupcake",
   "gender": "$25.99",
-  "image": "images/cupcake.jpg",
+  "image": "images/fastbreak.png",
   "comments": [{
 
     "username": "AboveAlpha",
@@ -24,7 +24,7 @@
   "type": "3 Wick",
   "name": "Cinnamon Sugared Cupacake",
   "gender": "$25.99",
-  "image": "images/doughnut.jpg",
+  "image": "images/hockeyhero.png",
   "comments": [{
 
     "username": "Jubeamese",
@@ -46,7 +46,7 @@
   "type": "3 Wick",
   "name": "Strawberry Sorbet",
   "gender": "$25.99",
-  "image": "images/sorbet.jpg",
+  "image": "images/powerslide.png",
   "comments": [{
 
     "username": "WordtotheWord",
