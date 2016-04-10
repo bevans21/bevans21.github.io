@@ -61,7 +61,7 @@ body{
 	 margin: 20px;
 }
 
-.panel-default{
+.panel-default > .panel-heading{
   background-color: #425454 !important;
   color: #adc4a0 !important;
 }
