@@ -32,7 +32,6 @@ $(document).ready(function() {
                 html += '<div class="col-xs-12 col-md-1 jsonCats">' +
                   '<img class="catImage" src="' + item.image + '"/>' +
                   //deleted commentsContainer
-                  '<div class="col-xs-12 col-md-4">'
                   '<div class="panel panel-default">' + //added
                   '<div class="panel-heading">Renter Comments</div>'; //added
                 $.each(item.comments, function(ind, i) {
