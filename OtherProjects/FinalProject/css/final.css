@@ -65,7 +65,7 @@ body{
   background-image: none;
   background-color: #425454 !important;
   color: #adc4a0 !important;
-  border: #425454 !important;
+  border: #425454 2px !important;
 }
 
 .panel > .panel-body{
