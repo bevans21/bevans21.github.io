@@ -109,8 +109,8 @@ $(document).ready(function() {
       alert("Sending to database " + JSON.stringify(order));
       $("#successMsg").html("Order Received!<br/><br/>" +
         order.catSelect + " will be delivered on " +
-        order.startRentDate +
-        "<img id='Cupcake' src='images/Money-back.gif'>");
+        order.endRentDate +
+        "<img id='Cupcake' src='images/running-man.png'>");
 
     } //sendConfirmation
 
