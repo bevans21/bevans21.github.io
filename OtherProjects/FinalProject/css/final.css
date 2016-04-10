@@ -61,13 +61,11 @@ body{
 	 margin: 20px;
 }
 
-.panel{
-  border: black;
-}
 .panel > .panel-heading{
   background-image: none;
   background-color: #425454 !important;
   color: #adc4a0 !important;
+  border: #425454 !important;
 }
 
 .panel > .panel-body{
