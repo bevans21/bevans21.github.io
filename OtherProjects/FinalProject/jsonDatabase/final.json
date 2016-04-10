@@ -2,7 +2,8 @@
   "type": "3 Wick",
   "name": "Frosted Cupcake",
   "gender": "$25.99",
-  "image": "images/rollerchamp.png" "images/sailboat.png",
+  "image": "images/rollerchamp.png",
+  "image2": "images/sailboat.png",
   "comments": [{
 
     "username": "AboveAlpha",
