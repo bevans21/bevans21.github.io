@@ -3,6 +3,7 @@
   "name": "Frosted Cupcake",
   "gender": "$25.99",
   "image": "images/rollerchamp.png",
+  "image": "images/sailboat.png",
   "comments": [{
 
     "username": "AboveAlpha",
@@ -25,6 +26,7 @@
   "name": "Cinnamon Sugared Cupacake",
   "gender": "$25.99",
   "image": "images/hockeyhero.png",
+  "image": "images/hurricane.png",
   "comments": [{
 
     "username": "Jubeamese",
@@ -47,6 +49,7 @@
   "name": "Strawberry Sorbet",
   "gender": "$25.99",
   "image": "images/powerslide.png",
+  "image": "images/2000.png",
   "comments": [{
 
     "username": "WordtotheWord",
