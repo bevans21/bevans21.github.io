@@ -27,10 +27,6 @@ border: 7px solid #7b564f;
   font-colour: white;
 }
 
-p{
-  border-top: 7px solid #425454;
-}
-
 small{
   font-weight: bold;
   font-style: italic;
@@ -42,6 +38,7 @@ h1{
   font-weight: 400;
   font-family: 'amatic';
   margin-bottom: 40px;
+  border-bottom: 7px solid #425454;
 }
 
 body{
