@@ -91,7 +91,7 @@ $(document).ready(function() {
 
               $("#mySingleLineText").on("focus", function() {
                 $("#log").append("<br>input focus");
-                  $(this).css("background-color", "#adc4a0")
+                  $(this).css("background-color", "#55897d")
                 })
                 .on("blur", function() {
                   $("#log").append("<br>input blur");
