@@ -2,11 +2,13 @@
 
 .catImage {
   width: 46.5%;
+  margin-bottom: 30px;
 }
 
 .catImage2 {
   width: 46.5%;
   float: right;
+  margin-bottom: 30px;
 }
 
 .catName{
