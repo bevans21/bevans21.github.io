@@ -27,10 +27,6 @@ border: 7px solid #7b564f;
   font-colour: white;
 }
 
-.container{
-    border-bottom: 7px solid #adc4a0;
-}
-
 small{
   font-weight: bold;
   font-style: italic;
@@ -49,6 +45,7 @@ body{
   font-family: 'raleway';
   font-size: 16px;
   line-height: 26px;
+  border-bottom: 7px solid #425454;
 }
 
 .text-success {
