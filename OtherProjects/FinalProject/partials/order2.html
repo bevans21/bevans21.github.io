@@ -1,18 +1,34 @@
 <div class="col-xs-12 col-md-3"></div>
 <div id="orderForm" class="col-xs-12 col-md-6">
 
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-4">
     <label class="control-label">
       Sweater Style
     </label>
     <select id="catSelect" class="form-control">
-      <option value="Crew Neck">Crew Neck</option>
-      <option value="Hoodie">Hoodie</option>
-      <option value="Three Quarter Zip">Three Quarter Zip</option>
+      <option value="Crew Neck">Crew Neck $24.99</option>
+      <option value="Hoodie">Hoodie $39.99</option>
+      <option value="Three Quarter Zip">Three Quarter Zip $29.99</option>
     </select>
   </div>
+
+  <div class="col-xs-12 col-md-4">
+    <p style="font-weight: bold;">Size:</p>
+    <label class="radio-inline" id="myRadio">
+      <input type="radio" name="size" value="Small"> Small
+    </label>
+    <label class="radio-inline">
+
+      <input type="radio" name="size" value="Medium"> Medium
+    </label>
+    <label class="radio-inline">
+
+      <input type="radio" name="size" value="Large"> Large
+    </label>
+  </div>
+
 <br>
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-4">
     <label class="control-label">
       Preferred Delivery Date
     </label>
@@ -94,7 +110,6 @@
     </label>
     <input type="text" class="form-control" id="country">
   </div>
-<br>
 <br>
   <div class="col-md-12">
     <button id="submitButton" class="btn btn-success">
