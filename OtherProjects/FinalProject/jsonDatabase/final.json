@@ -26,7 +26,7 @@
   "name": "Cinnamon Sugared Cupacake",
   "gender": "$25.99",
   "image": "images/hockeyhero.png",
-  "image": "images/hurricane.png",
+  "image2": "images/hurricane.png",
   "comments": [{
 
     "username": "Jubeamese",
@@ -49,7 +49,7 @@
   "name": "Strawberry Sorbet",
   "gender": "$25.99",
   "image": "images/powerslide.png",
-  "image": "images/2000.png",
+  "image2": "images/2000.png",
   "comments": [{
 
     "username": "WordtotheWord",
