@@ -32,12 +32,9 @@ $(document).ready(function() {
                 html += '<div class="col-xs-12 col-md-4 jsonCats">' +
                   '<img class="catImage" src="' + item.image +'"/>' +
                   '<img class="catImage2" src="' + item.image2 +'"/>' +
+                  //deleted commentsContainer
                   '<div class="panel panel-default">' + //added
                   '<div class="panel-heading">Renter Comments</div>'; //added
-                  $.each(data, function(index, item) {
-                    html += '<div class"col-xs-12 col-md-12>''</div>'
-                    item.paragraph +
-                  //deleted commentsContainer
                 $.each(item.comments, function(ind, i) {
                     html += '<div class="panel-body">' + //added
                       '<div class="renterName"><small>' + i.username + '</small></div>' +
