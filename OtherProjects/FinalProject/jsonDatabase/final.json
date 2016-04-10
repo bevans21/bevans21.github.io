@@ -1,27 +1,4 @@
 [{
-  "type": "Crewneck",
-  "name": "Roller Champ",
-  "price": "$29.99",
-  "image": "images/rollerchamp.png",
-  "image2": "images/sailboat.png",
-  "comments": [{
-
-    "username": "RetroRachel",
-    "stars": 5,
-    "comment": "I was very happy with my sweater! Turned out exactly how I wanted it to!"
-
-  }, {
-    "username": "FlowerPower",
-    "stars": 3,
-    "comment": "Didn't fit even though I ordered my regular size! But still a high quality product!"
-
-  }, {
-    "username": "BabyBlue",
-    "stars": 4,
-    "comment": "Bought this as a present for my sister! Her and my mom loved it!"
-  }]
-
-}, {
   "type": "Hoodie",
   "name": "Custom",
   "price": "$39.99",
@@ -42,6 +19,30 @@
     "username": "PeachPrincess",
     "stars": 5,
     "comment": "Bought matching ones for me and my twin! My parents loved it!"
+  }]
+
+}, {
+
+  "type": "Crewneck",
+  "name": "Roller Champ",
+  "price": "$29.99",
+  "image": "images/rollerchamp.png",
+  "image2": "images/sailboat.png",
+  "comments": [{
+
+    "username": "RetroRachel",
+    "stars": 5,
+    "comment": "I was very happy with my sweater! Turned out exactly how I wanted it to!"
+
+  }, {
+    "username": "FlowerPower",
+    "stars": 3,
+    "comment": "Didn't fit even though I ordered my regular size! But still a high quality product!"
+
+  }, {
+    "username": "BabyBlue",
+    "stars": 4,
+    "comment": "Bought this as a present for my sister! Her and my mom loved it!"
   }]
 
 }, {
