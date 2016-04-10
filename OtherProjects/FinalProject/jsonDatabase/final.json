@@ -1,53 +1,52 @@
 [{
-  "type": "3 Wick",
-  "name": "Frosted Cupcake",
-  "gender": "$25.99",
+  "type": "Crewneck",
+  "name": "Roller Champ",
+  "price": "$29.99",
   "image": "images/rollerchamp.png",
   "image2": "images/sailboat.png",
-  "paragraph": "Diggin' the sweatshirts above? You can have one just like it or upload your favourite #tbt and we'll work hard to recreate your childhood for you! Check out the reviews from our awesome customers! ",
   "comments": [{
 
-    "username": "AboveAlpha",
+    "username": "RetroRachel",
     "stars": 5,
-    "comment": "This scent was really nice"
+    "comment": "I was very happy with my sweater! Turned out exactly how I wanted it to!"
 
   }, {
-    "username": "BrashTaga",
+    "username": "FlowerPower",
     "stars": 3,
-    "comment": "Not as strong of a scent as I had hoped"
+    "comment": "Didn't fit even though I ordered my regular size! But still a high quality product!"
 
   }, {
-    "username": "Dragonakon",
+    "username": "BabyBlue",
     "stars": 4,
-    "comment": "Bought this for my mom and she loved it!"
+    "comment": "Bought this as a present for my sister! Her and my mom loved it!"
   }]
 
 }, {
-  "type": "3 Wick",
-  "name": "Cinnamon Sugared Cupacake",
-  "gender": "$25.99",
+  "type": "Hoodie",
+  "name": "Custom",
+  "price": "$39.99",
   "image": "images/hockeyhero.png",
   "image2": "images/hurricane.png",
   "comments": [{
 
-    "username": "Jubeamese",
+    "username": "TreeHugger437",
     "stars": 1,
-    "comment": "Smells horrible!"
+    "comment": "Faded so much in the wash! Was a red, now it's pink!"
 
   }, {
-    "username": "Pearbrai",
+    "username": "Silly5Goose",
     "stars": 3,
-    "comment": "Was really excited about this scent but it was not what I had hoped"
+    "comment": "Wasn't exactly what I had hoped for!"
 
   }, {
     "username": "PeachPrincess",
     "stars": 5,
-    "comment": "Sooooooooo good!"
+    "comment": "Bought matching ones for me and my twin! My parents loved it!"
   }]
 
 }, {
-  "type": "3 Wick",
-  "name": "Strawberry Sorbet",
+  "type": "3 quarter zip",
+  "name": "Powerslide",
   "gender": "$25.99",
   "image": "images/powerslide.png",
   "image2": "images/2000.png",
@@ -55,16 +54,16 @@
 
     "username": "WordtotheWord",
     "stars": 2,
-    "comment": "Smelt terrible!"
+    "comment": "Product is great! Took 2 months to get here! Ridiculous!"
 
   }, {
-    "username": "Roadbed",
+    "username": "TheNerdHerd2",
     "stars": 4,
-    "comment": "Went back and bought two more!"
+    "comment": "Amazing!"
 
   }, {
-    "username": "Inconaler",
+    "username": "Debby",
     "stars": 1,
-    "comment": "Hated it"
+    "comment": "Awful product! Shrunk 3 sizes in the wash!"
   }]
 }]
