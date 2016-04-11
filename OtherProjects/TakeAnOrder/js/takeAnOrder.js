@@ -9,6 +9,16 @@ $("#myButton").on("mouseenter", function(){
   $("#log").append("<br>Button mouseleave");
   $(this).text("Click Me!");
 });
+
+$("#submitButton").on("mouseenter", function() {
+              // $("#log").append("<br>Button mouseenter");
+              $(this).text("RETRO!");
+            })
+
+            .on("mouseleave", function() {
+              //$("#log").append("<br>Button mouseleave");
+              $(this).text("Order Now");
+            });
 //this makes the background of the name box turn baby blue when it's clicked
 //and turns back to normal when you unclick it
   $("#mySingleLineText").on("focus", function() {
