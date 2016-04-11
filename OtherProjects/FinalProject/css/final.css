@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700|Audiowide);
 
+/* this is how the images on the review page have borders around them */
 .catImage , .catImage2{
 border: 7px solid #7b564f;
 }
+/* this allows the review page to have two images per column */
 .catImage {
   width: 46.5%;
   margin-bottom: 30px;
@@ -14,22 +16,9 @@ border: 7px solid #7b564f;
   margin-bottom: 30px;
 }
 
-.catName{
-  text-decoration: underline;
-  background:rgba(0, 86, 255, 0.2);
-  font-size: 20px;
-  text-align: center;
-
-}
-
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #7b564f;
   font: white;
-}
-
-small{
-  font-weight: bold;
-  font-style: italic;
 }
 
 h1{
@@ -50,21 +39,12 @@ body{
   margin-bottom: 50px;
 }
 
-.text-success {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 5px;
-}
-
 .carousel{
     margin-top: 20px;
     background: #adc4a0;
 }
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
-}
-.bs-example{
-	 margin: 20px;
 }
 
 .panel > .panel-heading{
