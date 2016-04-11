@@ -89,7 +89,7 @@ $(document).ready(function() {
 
               }) //click
 
-              $("#mySingleLineText").on("focus", function() {
+              $(".mySingleLineText").on("focus", function() {
                 $("#log").append("<br>input focus");
                   $(this).css("background-color", "#adc4a0")
                 })
