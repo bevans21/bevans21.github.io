@@ -21,7 +21,7 @@ $("#submitButton").on("mouseenter", function() {
             });
 //this makes the background of the name box turn baby blue when it's clicked
 //and turns back to normal when you unclick it
-  $("#mySingleLineText").on("focus", function() {
+  $("#mySingleLineText").on("focus", function() 
     $("#log").append("<br>input focus");
       $(this).css("background-color", "#CCFFFF")
     })
