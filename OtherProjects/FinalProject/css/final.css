@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700|Audiowide);
 
 .catImage , .catImage2{
 border: 7px solid #7b564f;
@@ -36,7 +36,7 @@ h1{
   font-size: 40px;
   text-align: center;
   font-weight: 400;
-  font-family: 'Amatic+SC' serif;
+  font-family: 'Audiowide';
   margin-bottom: 30px;
   padding-bottom: 10px;
   border-bottom: 5px solid #425454;
