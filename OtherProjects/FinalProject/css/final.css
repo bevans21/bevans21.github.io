@@ -22,6 +22,9 @@ border: 7px solid #7b564f;
 
 }
 
+.nav.pills>li{
+  color: white;
+}
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #7b564f;
   font: white;
