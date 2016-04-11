@@ -98,6 +98,15 @@ $(document).ready(function() {
                   $(this).css("background-color", "#FFFFFF")
                 });
 
+                $("#submitButton").on("mouseenter", function() {
+                              // $("#log").append("<br>Button mouseenter");
+                              $(this).text("RETRO!");
+                            })
+
+                            .on("mouseleave", function() {
+                              //$("#log").append("<br>Button mouseleave");
+                              $(this).text("Order Now");
+                            });
           }) //get
       }
 
