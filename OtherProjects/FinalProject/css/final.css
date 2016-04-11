@@ -76,3 +76,10 @@ body{
   background-color: #adc4a0;
   color: #7b564f;
 }
+
+#submitButton {
+  margin-top: 20px;
+  text-align: center;
+  color: #f4eeb4;
+  background: #425454;
+}
