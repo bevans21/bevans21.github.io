@@ -1,0 +1,480 @@
+@import url(https://fonts.googleapis.com/css?family=Kalam:400,300,700|Bad+Script);
+/*Eric Meyer CSS Reset - Bigins */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/*Eric Meyer CSS Reset - Ends */
+ 
+/* desktop screen */
+
+/* the wrapper decides how wide the content of the page will stretch over the screen */
+
+.page-wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* these are the common elements throughout the page */
+
+body{
+    font-family: Kalam, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.388;
+    padding: 20px;
+    background: url(../images/background-reall.png)
+}
+
+/* desktop version has a fixed header size so it doesn't overlap with other content boxes */
+
+header{
+    height: 400px;
+    width: 400px; 
+}
+
+/* these values control the specifics of the primary title that says "CSS Zen Garden" */
+
+header h1{
+    font-family: bad script, serif;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 105px;
+    background-position: 50% 45px;
+    width: 275px;
+    margin: 152px 0 100px 515px;
+}
+
+/* these values control the specifics of the secondary title that says "The Beauty of CSS" */
+
+header h2{
+    font-family: bad script, serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    line-height: 105px;
+    background-position: 50% 45px;
+    width: 400px;
+    margin: -90px 0 100px 450px;
+}
+   
+/* margins are used to place content boxes in the correct spots on the screen. z-index is used to determine the order of the overlapping content boxes. */
+
+.summary{
+    width: 415px;
+    height: 156px;
+    background-color: #ED8C72;
+    margin: 0 0 0 445px;
+    position: relative;
+    z-index: 30;
+}
+ 
+/* the padding is used to keep the text away from the edge of the content box */
+
+.summary p{
+    padding: 15px 20px 20px 20px;
+    text-align: center;
+}
+
+/* text-decoration gets rid of the underline under the links in this part of the website */
+
+.summary p a{
+    color: white;
+    text-decoration: none;
+}
+
+/* when you hover over the links in the summary content box, they turn yellow so you know that your mouse is on a link */
+
+.summary p a:hover{
+    color: yellow;
+}
+
+
+/* the negative margin values are used to place the content boxes in the correct spot on the screen */
+
+.preamble{
+    width: 874px;
+    height: 487px;
+    background-color: #2F496E;
+    margin: -80px 0 0 45px;
+    z-index: 20;
+}
+
+/* this controls the appearance of the title "The Road to Enlightenment" */
+
+.preamble h3{
+    padding: 130px 0 30px 445px;
+    font-family: bad script, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.preamble p{
+    padding: 5px 70px 20px 70px;
+    color: white;
+}
+
+/* all of the content boxes in the desktop version have fixed widths and heights to keep them in their proper place and to stop them from getting bigger and/or smaller when you start to shrink the page */
+
+.explanation{
+    width: 780px;
+    height: 350px;
+    background-color: #ED8C72;
+    margin: -60px 90px 0 90px;
+}
+
+.explanation h3{
+    font-family: bad script, serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 28px 0 15px 0;
+}
+
+.explanation p{
+    padding: 0 40px 40px 40px;
+}
+
+.benefits{
+    width: 620px;
+    height: 200px;
+    background-color: #EACFBE;
+    margin: -820px 0 0 165px;
+    position: relative;
+    z-index: 50;
+}
+
+.benefits h3{
+    font-family: bad script, serif;
+    font-size: 22px; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0 25px 0;
+}
+
+.benefits p{
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+.participation{
+    width: 415px;
+    height: 745px;
+    background-color: #2F496E;
+    margin-top: 110px;
+    display: inline-block;
+}
+
+.participation h3{
+    font-family: bad script, serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 155px 0 20px 0;
+    color: white;
+}
+
+.participation p{
+    padding: 0 20px 20px 20px;
+    color: white;
+}
+
+.participation p a{
+    color: #ED8C72;
+    text-decoration: none;
+    color: #ED8C72;
+}
+
+.participation p a:hover, .requirements p a:hover{
+    color: yellow;
+}
+
+.requirements{
+    width: 415px;
+    height: 1170px;
+    background-color: #2F496E;
+    margin-top: -120px;
+    float: right;
+    z-index: 15;
+    margin-bottom: 50px; 
+}
+
+.requirements h3{
+    font-family: bad script, serif;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 155px 0 20px 0;
+    color: white;
+}
+
+.requirements p a{
+    text-decoration: none;
+    color: #ED8C72;
+}
+
+.requirements p{
+    padding: 0 20px 20px 20px;
+    color: white;
+}
+
+.design-selection{
+    width: 300px;
+    height: 700px;
+    background-color: #EACFBE;
+    position: relative;
+    margin-top: -950px;
+    margin-bottom: 1716px;
+    margin-left: 90px;
+    z-index: 40;
+}
+
+/* for aestetic purposes, the header for class="design-selection" and for class="design-archives" was not shown on the page. This is accomplished below */
+
+.design-selection h3{
+    display: none;
+}
+
+.design-selection ul{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.design-archives{
+    background-color: #ED8C72;
+    width: 415px;
+    display: inline-block;
+    padding-top: -500px;
+}
+
+.design-selection{
+    font-family: bad script, serif;
+}
+
+.design-selection a:hover{
+    font-size: 20px ;
+    text-decoration: underline;
+}
+
+.design-selection ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.design-name{
+    font-family: bad script, serif;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 15px 0 -8px 0;
+    display: block;
+}
+
+.designer-name{
+    font-family: bad script, serif;
+}
+
+nav ul li {
+    font-family: bad script, serif;
+}
+
+/* margin-top is such a high number so that the footer isn't way way down off the page */
+
+footer{
+    width: 800px;
+    height: 40px;
+    background-color: #ED8C72;
+    margin-top: -1615px;
+    padding-left: 75px;
+    z-index: 50;
+    margin-left: 30px;
+}
+
+/* padding: top right bottom left */
+
+footer a{
+    font-family: bad script, serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 70px 0 43px;
+    display: inline-block;
+    color: black;
+}
+
+/* this hover allows the user to see which link they are hovering over by means of an underline */
+
+footer a:hover{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.design-archives h3{
+    display: none;
+}
+
+.design-archives{
+    height: 80px;
+    margin-top: -200px;
+    display: block;
+}
+
+.design-archives a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    width: auto;
+    line-height: 35px;
+    margin-top: 5px;
+    width: auto;
+    text-align: center;
+}
+
+.design-archives a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.zen-resources{
+   background-color: #ED8C72;
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+    width: 415px;
+}
+
+.zen-resources h3{
+    display: none;
+}
+
+.zen-resources a{
+    font-family: bad script, serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+.zen-resources a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+/* this is the media screen which starts once the page has been shrunk down to 960px wide */
+
+@media screen and (max-width: 960px){
+    
+    
+/* the header (as well as many other contents) have a height and width of auto. This is because the page must respond when it is shrunken or expanded. */    
+    
+header{
+        height: auto;
+        width: auto;
+        margin: 10px 0 60px 0;
+        text-align: center;
+    }
+    
+header h1{
+    font-family: Bad Script, serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    line-height: 105px;
+    background-position: 50% 45px;
+    width: auto;
+    margin: 50px 5px 150px 0;
+}
+
+header h2{
+    width: auto;
+    height: auto;
+    margin: -125px -20px -40px -30px;
+    text-align: center;
+}
+
+.design-selection{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+    
+.design-selection a:hover{
+    font-size: 20px ;
+    text-decoration: underline;
+}
+    
+/* here, a lot of the content boxes shared the same styling requirements so I just put them all together to save space */
+    
+.summary, .preamble, .explanation, .benefits, .participation, .requirements, .design-archives, .zen-resources{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+    
+.summary p a:hover{
+    color: yellow;
+}
+    
+.preamble h3{
+    padding: 25px 0 25px 0;
+    width: auto;
+    text-align: center;
+}
+    
+.explanation h3, .benefits h3, .participation h3, .requirements h3{
+    padding: 25px;
+}
+    
+.preamble p, .participation p, .requirements p{
+    padding: 0 35px 20px 35px;
+}    
+
+.participation p a:hover, .requirements p a:hover{
+    color: yellow;
+}
+
+.explanation p{
+    margin: 0 -5px 10px -5px;
+    padding-bottom: 15px;
+    }
+  
+footer{
+    width: 100%;
+    height: 220px;
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #ED8C72;
+}
+    
+footer a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: auto;
+    margin-left: -130px;
+}
+    
+footer a:hover, .zen-resources a:hover, .design-archives a:hover{
+    font-size: 20px ;
+    text-decoration: underline;
+}
+    
+.design-archives a{
+    width: auto;
+    display: block;
+    text-align: center;
+}
+    
+.zen-resources{
+    background-color: #2F496E; 
+}
+    
+.zen-resources a{
+    color: white;
+}
+    
+/* I changed a couple things as I went along (I also realized there was a little more content) so my mock up does not match my web page exactly */  
