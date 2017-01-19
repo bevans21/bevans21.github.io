@@ -3,18 +3,19 @@ $(document).ready(function() {
     //get all the nav li, add click event
     $(".nav").find("li").on("click", function() {
         $("#pageContent").hide().html("");
-        //remove all active class
+        //this removes the active class
         $(".nav").find("li").removeClass("active");
-        //add active class to clicked li
+        //this adds the active class to the selected nav list item
         $(this).addClass("active");
 
-        //get the correct page according to click
+        //this gets the partial that the nav is linked to
         var page = $(this).attr("id");
         getPartial(page);
 
-      }) //click
+      }) /
 
-    //get the parital via JSON, add to page, activiate associating js
+    //this gets the partial, activates the jSon data, and then the rest of the
+    //associated js is loaded
     function getPartial(partial) {
 
       if (partial == "homePage") { //ajax get home.html
@@ -22,12 +23,11 @@ $(document).ready(function() {
           $("#pageContent").html(data);
           $('.carousel').carousel();
         })
-      } else if (partial == "whatPage") { //ajax models.html
-        //paste the getJSON here; change the append id; change the file name
+      } else if (partial == "whatPage") {
         $.getJSON("jsonDatabase/final.json", function(data) {
 
             var html = "";
-
+//this is where the js tells the page to retrieve certain items from the Json file
             $.each(data, function(index, item) {
                 html += '<div class="col-xs-12 col-md-4 jsonCats">' +
                   '<img class="catImage" src="' + item.image +'"/>' +
@@ -41,7 +41,7 @@ $(document).ready(function() {
                       '<div class="renterStars">';
 
                     for (var j = 1; j <= 5; j++) {
-
+//here are the review stars
                       if (j <= i.stars) {
                         html += '<img src="images/fullstar.png"/>';
                       } else {
@@ -58,8 +58,8 @@ $(document).ready(function() {
 
             $("#pageContent").html(html);
 
-          }) //getJSON
-      } else if (partial == "orderPage") { //ajax get order.html
+          })
+      } else if (partial == "orderPage") {
         $.get("partials/order2.html", function(data) {
 
             $("#pageContent").html(data);
@@ -89,6 +89,8 @@ $(document).ready(function() {
 
               }) //click
 
+//here is the jQuery event  that changes the background of an input box when it is
+//focused on and then changes it back to white when it is deselected
               $("#mySingleLineText").on("focus", function() {
                 $("#log").append("<br>input focus");
                   $(this).css("background-color", "#adc4a0")
@@ -98,6 +100,8 @@ $(document).ready(function() {
                   $(this).css("background-color", "#FFFFFF")
                 });
 
+//this changes what the submit button says when you hover over it and
+//what it changes back to once it is not being hovered over anymore
                 $("#submitButton").on("mouseenter", function() {
                               // $("#log").append("<br>Button mouseenter");
                               $(this).text("RETRO!");
@@ -115,14 +119,10 @@ $(document).ready(function() {
     }
 
     function sendConfirmation() {
-      //make an object to record data for database;
       var order = {};
-      //get all teh jquery objects
       var formData = $("input, select");
-      //for each jquery object
       formData.each(function() {
-        var id = $(this).attr("id"); //get the id of the element
-        order[id] = $(this).val(); //set the field and the value
+        var id = $(this).attr("id");
       })
 
       alert("Sending to database " + JSON.stringify(order));
@@ -131,47 +131,9 @@ $(document).ready(function() {
         order.endRentDate +
         "<img id='Cupcake' src='images/running-man.png'>");
 
-    } //sendConfirmation
+    }
 
     //begin the program, get the homepage
     getPartial("homePage");
 
-  }) //ready
-  /*
-              //activate the datepicker
-              $('#startRentDate, #endRentDate').datepicker({});
-              //user clicks submit
-              $("#submitButton").on("click", function() {
-                //add the error class to div of empty inputs
-                $("input, select").filter(function() {
-                  return !this.value;
-                }).closest("div").addClass("has-error")
-                //remove the error class from all filled inputs
-                $("input, select").filter(function() {
-                  return this.value;
-                }).closest("div").removeClass("has-error");
-                //get all errors
-                var hasError = $(".has-error");
-                //if no errors
-                if (hasError.length < 1) {
-                  sendConfirmation();
-                }
-              })
-              //do when order valid
-              function sendConfirmation() {
-                //we will store all our order information here
-                var order = {};
-                //get all input values
-                var inputs = $("input, select");
-                //put all the input values into object ; this each can be done with jquery objects
-                inputs.each(function() {
-                  var id = $(this).attr("id");
-                  order[id] = $(this).val();
-                })
-                //act as if sending to databse
-                alert("send to databse: " + JSON.stringify(order));
-                //show success message
-                $("#successMsg").html("Order Received!<br/><br/>" +
-                  order.catSelect + " will be delivered on " + order.startRentDate + "<img id='paws' src='images/catPaws.jpeg'>");
-              }//end sendConfirmation
-  */
+  })

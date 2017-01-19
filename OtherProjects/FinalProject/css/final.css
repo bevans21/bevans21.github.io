@@ -16,11 +16,13 @@ border: 7px solid #7b564f;
   margin-bottom: 30px;
 }
 
+/* this styles the nav bar by adding a background colour to the active list items*/
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   background-color: #7b564f;
   font: white;
 }
 
+/* this is where the h1 is styled*/
 h1{
   font-size: 40px;
   text-align: center;
@@ -30,7 +32,8 @@ h1{
   padding-bottom: 10px;
   border-bottom: 5px solid #425454;
 }
-
+/*
+here the body is styled with a background color and a font for any paragraphs*/
 body{
   background-color: #f4eeb4;
   font-family: 'raleway';
@@ -39,25 +42,31 @@ body{
   margin-bottom: 50px;
 }
 
+/* this styles the carousel by adding a margin between the paragraph and carousel*/
 .carousel{
     margin-top: 20px;
     background: #adc4a0;
 }
+
+/* this centers the images in the middle of the */
 .carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
+    margin: 0 auto;
 }
 
+/* this changes the color of the panel heading on the review page as well as the font color */
 .panel > .panel-heading{
   background-image: none;
   background-color: #425454 !important;
   color: #adc4a0 !important;
 }
 
+/* this changes the background color of the panel body where the review are */
 .panel > .panel-body{
   background-color: #adc4a0;
   color: #7b564f;
 }
 
+/* this changes the color of the submit button on the order page*/
 #submitButton {
   margin-top: 20px;
   text-align: center;
